@@ -1,0 +1,76 @@
+.main{
+  
+  margin-top: 200px;
+  
+   
+}
+ 
+body{
+    
+    text-align: center;
+     
+  
+      background-image: url(' https://images5.alphacoders.com/687/687819.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+         
+    }
+
+h1{
+    background-color: white;
+    display: inline-block;
+  width: 100px;
+color: black;
+border-radius: 10px;
+}
+@media screen and (max-width: 399px) {
+  h1 {
+    background-color: white;
+    display: inline-block;
+  width: 75px;
+color: black;
+border-radius: 10px;
+font-size: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    background-color: white;
+    display: inline-block;
+  width: 135px;
+color: black;
+border-radius: 10px;
+  }
+}
+
+.buttons{
+  box-shadow: 5px 11px 65px rgb(187, 36, 36) inset;
+  height:50px;
+  width:80px;
+display:inline;
+border-radius:10px;
+font-size:20px;
+}
+.buttons:hover{
+  background-color: rgba(160, 66, 66, 0.253);
+
+}
+@media screen and (max-width: 399px) {
+  .buttons {
+    box-shadow: 5px 11px 65px rgb(187, 36, 36) inset;
+  height:40px;
+  width:70px;
+display:inline;
+border-radius:10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .buttons {
+    box-shadow: 5px 11px 65px rgb(187, 36, 36) inset;
+  height:40px;
+  width:120px;
+display:inline;
+border-radius:10px;
+  }
+}
